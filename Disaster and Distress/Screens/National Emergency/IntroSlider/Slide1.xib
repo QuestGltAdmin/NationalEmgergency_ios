@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide1" customModule="Zega_Cookware" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RaI-84-jje">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="749" fixedFrame="YES" image="SecondSlider" translatesAutoresizingMaskIntoConstraints="NO" id="3O1-6z-iPz">
+                            <rect key="frame" x="-53" y="-36" width="520" height="432"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="FfD-Wi-FXX">
+                            <rect key="frame" x="52" y="363" width="219" height="65"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <string key="text">HEATS IN MINUTES
+COOKS FOR HOURS</string>
+                            <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="100"/>
+                            <color key="textColor" red="0.2901960784" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Zega is smart, restaurant quality cookware that does the cooking for you." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="iFB-kI-U1c">
+                            <rect key="frame" x="18" y="424" width="283" height="64"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="16"/>
+                            <color key="textColor" red="0.29019607843137252" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="0.0" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="RaI-84-jje" secondAttribute="bottom" id="GSF-CG-krS"/>
+                <constraint firstAttribute="trailing" secondItem="RaI-84-jje" secondAttribute="trailing" id="MdD-JO-foe"/>
+                <constraint firstItem="RaI-84-jje" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="X5g-ee-t9P"/>
+                <constraint firstItem="RaI-84-jje" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="ib1-EA-bCo"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="imageV" destination="3O1-6z-iPz" id="C70-Tn-i1G"/>
+                <outlet property="lableTxt" destination="FfD-Wi-FXX" id="meY-Gk-kGJ"/>
+                <outlet property="lableTxt1" destination="iFB-kI-U1c" id="0fg-qy-QcW"/>
+            </connections>
+            <point key="canvasLocation" x="52.5" y="129.92957746478874"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SecondSlider" width="574" height="429"/>
+    </resources>
+</document>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-ExtraLight.ttf">
+            <string>Poppins-ExtraLight</string>
+        </array>
+        <array key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SlideLogin" customModule="Zega" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="sM9-RW-CeU">
+                    <rect key="frame" x="15" y="480" width="290" height="68"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBc-NA-0wL">
+                            <rect key="frame" x="0.0" y="0.0" width="137.5" height="68"/>
+                            <color key="backgroundColor" red="0.83529411764705885" green="0.16470588235294117" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="22"/>
+                            <state key="normal" title="SIGN UP">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                    <color key="value" red="0.85882352939999995" green="0.2901960784" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                    <size key="value" width="0.0" height="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                    <real key="value" value="0.20000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="letterSpace">
+                                    <real key="value" value="1.76"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="setBgColor">
+                                    <color key="value" red="0.83529411760000005" green="0.1647058824" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                    <color key="value" red="0.83529411760000005" green="0.1647058824" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXM-Hj-DIr">
+                            <rect key="frame" x="152.5" y="0.0" width="137.5" height="68"/>
+                            <color key="backgroundColor" red="0.83529411764705885" green="0.16470588235294117" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins" pointSize="22"/>
+                            <state key="normal" title="LOG IN">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="highlightedColor">
+                                    <color key="value" red="0.85882352939999995" green="0.2901960784" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                    <size key="value" width="0.0" height="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                    <real key="value" value="0.20000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="selectedColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                                    <color key="value" red="0.83529411760000005" green="0.1647058824" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="letterSpace">
+                                    <real key="value" value="1.76"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="setBgColor">
+                                    <color key="value" red="0.83529411760000005" green="0.1647058824" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="TwN-Jy-ghE">
+                            <variation key="heightClass=regular-widthClass=regular" constant="70"/>
+                        </constraint>
+                        <constraint firstItem="HXM-Hj-DIr" firstAttribute="height" secondItem="sM9-RW-CeU" secondAttribute="height" id="aOL-Xk-VeG"/>
+                        <constraint firstItem="HBc-NA-0wL" firstAttribute="height" secondItem="sM9-RW-CeU" secondAttribute="height" id="z1m-YT-fMm"/>
+                    </constraints>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE SIGN UP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ddk-iP-ugB">
+                    <rect key="frame" x="60.5" y="381.5" width="199" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="7db-zI-d8d"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-ExtraLight" family="Poppins" pointSize="28"/>
+                    <color key="textColor" red="0.2901960784" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="Poppins-ExtraLight" family="Poppins" pointSize="36"/>
+                    </variation>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntroSlider4" translatesAutoresizingMaskIntoConstraints="NO" id="e6e-cK-tAm">
+                    <rect key="frame" x="25" y="106" width="270" height="295"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GET STARTED" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lvp-4M-uAo">
+                    <rect key="frame" x="10" y="64" width="300" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="S9Z-pU-FNh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
+                    <color key="textColor" red="0.29019607843137252" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="36"/>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR LOGIN BELOW" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ajY-bM-tB5">
+                    <rect key="frame" x="48.5" y="416" width="223.5" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="wN6-yF-RhF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Poppins-ExtraLight" family="Poppins" pointSize="28"/>
+                    <color key="textColor" red="0.2901960784" green="0.2784313725" blue="0.2784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" name="Poppins-ExtraLight" family="Poppins" pointSize="34"/>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="e6e-cK-tAm" firstAttribute="centerX" secondItem="ddk-iP-ugB" secondAttribute="centerX" id="1si-8u-40V"/>
+                <constraint firstItem="ajY-bM-tB5" firstAttribute="top" secondItem="e6e-cK-tAm" secondAttribute="bottom" constant="15" id="3kw-Mi-D77"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sM9-RW-CeU" secondAttribute="bottom" constant="20" id="Ai4-sS-qn0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lvp-4M-uAo" secondAttribute="trailing" constant="10" id="KZU-XG-K5N"/>
+                <constraint firstItem="sM9-RW-CeU" firstAttribute="trailing" secondItem="lvp-4M-uAo" secondAttribute="trailing" constant="-5" id="LS7-ov-CYl"/>
+                <constraint firstItem="e6e-cK-tAm" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="Vc0-1F-s9P"/>
+                <constraint firstItem="sM9-RW-CeU" firstAttribute="leading" secondItem="lvp-4M-uAo" secondAttribute="leading" constant="5" id="WI5-VA-cyq"/>
+                <constraint firstItem="e6e-cK-tAm" firstAttribute="top" secondItem="lvp-4M-uAo" secondAttribute="bottom" constant="3" id="WQO-qS-b0S"/>
+                <constraint firstItem="ajY-bM-tB5" firstAttribute="top" secondItem="ddk-iP-ugB" secondAttribute="bottom" constant="0.5" id="bgC-FI-JBt"/>
+                <constraint firstItem="sM9-RW-CeU" firstAttribute="top" secondItem="ajY-bM-tB5" secondAttribute="bottom" constant="30" id="jRR-so-YFo"/>
+                <constraint firstItem="lvp-4M-uAo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="64" id="lky-AG-TMh"/>
+                <constraint firstItem="ddk-iP-ugB" firstAttribute="centerX" secondItem="sM9-RW-CeU" secondAttribute="centerX" id="mRp-wG-W0x"/>
+                <constraint firstItem="lvp-4M-uAo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="pzd-8n-nsT"/>
+                <constraint firstItem="ajY-bM-tB5" firstAttribute="centerX" secondItem="sM9-RW-CeU" secondAttribute="centerX" id="yaP-Wb-MbD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="signIn" destination="HXM-Hj-DIr" id="lk5-Up-10k"/>
+                <outlet property="signUp" destination="HBc-NA-0wL" id="1b5-WZ-dzv"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="137"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IntroSlider4" width="323" height="220"/>
+    </resources>
+</document>
